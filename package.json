@@ -4,20 +4,18 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-material": "^1.0.0-beta-11",
+    "vue-template-compiler": "^2.6.11",
     "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
-    "push-dir": "^0.4.1",
-    "vue-template-compiler": "^2.6.11"
+    "@vue/cli-service": "~4.2.0"
   },
   "browserslist": [
     "> 1%",
